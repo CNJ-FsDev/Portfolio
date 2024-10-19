@@ -3,42 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home Page</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-aweesome.css"/>
     <link rel="stylesheet" href="/static/styles.css"/>
-
 </head>
-
 <body>
-    <header class="header">
-        <a href="{{ url_for('index', filename='styles.css') }}" class="logo">Logo</a>
+        <header class="header">
+            <a href="{{ url_for('index', filename='styles.css') }}" class="logo">Logo</a>
 
-        <nav class="navbar">
-            <a href="{{ url_for('about', filename='styles.css') }}">GitHub</a>
-            <a href="{{ url_for('contact', filename='styles.css') }}">LinkedIn</a>
-        </nav>
-    </header>
+            <nav class="navbar">
+                <a href="{{ url_for('about', filename='styles.css') }}">GitHub</a>
+                <a href="{{ url_for('contact', filename='styles.css') }}">LinkedIn</a>
+            </nav>
+        </header>
 
-    <div class="body2">
-        <nav class="nav2">
-            <ul>
-                <li class="logo2"></li>
-                <li><a href="#"><i class="fa fa-home"></i> &nbsp; About</a></li>
-                <li><a href="#"><i class="fa fa-book"></i> &nbsp; New</a></li>
-                <li><a href="#"><i class="fa fa-users"></i> &nbsp; Projects</a></li>
-                <li><a href="#"><i class="fa fa-picture-o"></i> &nbsp; Contact</a></li>
-            </ul>
-        </nav>
+        <div class="body2">
+            <nav class="nav2">
+                <ul>
+                    <li class="logo2"></li>
+                    <li><a href="#"><i class="fa fa-home"></i> &nbsp; About</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i> &nbsp; New</a></li>
+                    <li><a href="#"><i class="fa fa-users"></i> &nbsp; Projects</a></li>
+                    <li><a href="#"><i class="fa fa-picture-o"></i> &nbsp; Contact</a></li>
+                </ul>
+            </nav>
 
-        <div class="wrapper">
-            <div class="section">
-                <div class="box-area">
-                    <h2 style="color: orange">Portfolio Homepage</h2>
+            <div class="wrapper">
+                <div class="section">
+                    <div class="box-area">
+                        <h2 style="color: orange">Portfolio Homepage</h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
 </body>
 </html>
