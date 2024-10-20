@@ -10,6 +10,7 @@ body {
     background-image: url("https://images4.alphacoders.com/133/1339110.png");
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 
     margin: 0;
     height: 100%;
@@ -166,4 +167,22 @@ body {
 
 h2 {
     text-shadow: 3px 3px #FF0000;
+}
+
+.about-box {
+    background: white;
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+
+    margin-top: 50px;
+    margin-left: 575px;
+}
+
+.about-header {
+
+    font-size: 36px;
 }
